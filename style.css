@@ -1,0 +1,118 @@
+/* Сброс стилей */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #666;
+    line-height: 1.5;
+}
+
+ul[class],
+ol[class] {
+    list-style: none;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+/* Section boots ==========================*/
+
+.boots {
+    width: 83%;
+}
+
+.boots__women {
+    margin-top: 50px;
+}
+
+.boots__women-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boots__women-item {
+    width: 25.11%;
+    border: 1px solid #e2e2e2;
+}
+
+.boots__women-content {
+    width: 85%;
+}
+
+.boots__women-title {
+    padding-top: 30px;
+    font-size: 20px;
+    color: #333;
+}
+
+.boots__women-price {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 30px;
+    color: #333;
+}
+
+.boots__women-span {
+    font-size: 20px;
+}
+
+.boots__women-button {
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    margin: 25px 0 30px 75px;
+    background: #4ed17b;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boots__women-svg {
+    fill: #fff;
+    vertical-align: middle;
+}
+
+.boots__women-button:hover  .boots__women-svg {
+    fill: rgba(194, 121, 25, 0.87);
+}
